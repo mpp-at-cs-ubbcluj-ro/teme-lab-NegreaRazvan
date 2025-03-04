@@ -21,6 +21,8 @@ public class ComputerShopMain {
         map.put("cheia1", "valoarea 2");
         map.put("cheia2", "valoare noua");
         System.out.println(map);
+
+
     }
 
 }
