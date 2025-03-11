@@ -28,7 +28,7 @@ jar{
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
     manifest{
-        attributes('Main-Class' : 'ComputerShopMain')
+        attributes('Main-Class':'ComputerShopMain')
     }
     from{
         configurations.runtimeClasspath.collect{it.isDirectory() ? it: zipTree(it)}
