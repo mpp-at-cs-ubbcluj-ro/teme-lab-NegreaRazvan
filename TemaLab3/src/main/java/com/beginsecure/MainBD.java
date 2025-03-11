@@ -30,7 +30,7 @@ public class MainBD {
 
         System.out.println(carRepo.findBetweenYears(2018,2020));
 
-        carRepo.update(10, new Car("Ceva", "Altceva", 2021));
+        carRepo.update(18, new Car("Ceva", "Altceva", 2021));
 
         System.out.println(carRepo.findBetweenYears(2020,2022));
 
